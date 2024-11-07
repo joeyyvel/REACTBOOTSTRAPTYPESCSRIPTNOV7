@@ -8,7 +8,7 @@ export const Header = ({
   return (
     <>
       <div>
-        <h1>{title}</h1>
+        <h1 style={{ backgroundColor: "orange" }}>{title}</h1>
         <div className="card" style={{ width: "18 rem" }}>
           <img
             src="https://images.unsplash.com/photo-1528965051322-6d335c69eb86?q=80&w=1633&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -47,6 +47,7 @@ export const Header = ({
           </p>
         </div>
       </div>
+      <p style={{ backgroundColor: "orange" }}>Hello end!</p>
     </>
   );
 };
